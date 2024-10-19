@@ -7,6 +7,7 @@ class Product{
     public function getAllProducts() {
         
         $sql="SELECT            
+    id,
     code,
     name,
     price,
