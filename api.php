@@ -10,6 +10,7 @@ $endpoint = $_SERVER['PATH_INFO']; //get information from url
 
 
 header('Content-Type: application/json');
+header('Accept: application/json');
 header("Access-Control-Allow-Origin: *"); // Allow all origins, or specify the allowed origin
 header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS"); // Specify allowed HTTP methods
 header("Access-Control-Allow-Headers: Content-Type, Authorization"); // Specify allowed headers
